@@ -1,0 +1,45 @@
+{
+    "employees": {
+        "Alice": {
+            "leave_balance": {
+                "Sick Leave": 2,
+                "Annual Leave": 10,
+                "Maternity Leave": 0
+            },
+            "leave_history": [
+                {
+                    "leave_type": "Sick Leave",
+                    "date": "2025-05-30",
+                    "status": "Cancelled"
+                },
+                {
+                    "leave_type": "Sick Leave",
+                    "date": "2025-06-02",
+                    "status": "Approved"
+                },
+                {
+                    "leave_type": "Sick Leave",
+                    "date": "2025-06-03",
+                    "status": "Approved"
+                },
+                {
+                    "leave_type": "Sick Leave",
+                    "date": "2025-05-30",
+                    "status": "Approved"
+                }
+            ],
+            "is_manager": false,
+            "is_admin": false
+        },
+        "Bob": {
+            "leave_balance": {
+                "Sick Leave": 4,
+                "Annual Leave": 10,
+                "Maternity Leave": 0
+            },
+            "leave_history": [],
+            "is_manager": false,
+            "is_admin": true
+        }
+    }
+}
